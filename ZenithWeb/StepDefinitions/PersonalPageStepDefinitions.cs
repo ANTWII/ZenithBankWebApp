@@ -88,7 +88,7 @@ namespace ZenithWeb.StepDefinitions
 
                     fluentWait.PollingInterval = TimeSpan.FromMilliseconds(250);
                     fluentWait.IgnoreExceptionTypes(typeof(NoSuchElementException), typeof(ElementNotVisibleException), typeof(StaleElementReferenceException));
-                    fluentWait.Until(ExpectedConditions.ElementToBeClickable(By.XPath(pPage.loginLabel)));
+                    fluentWait.Until(ExpectedConditions.ElementIsVisible(By.XPath(pPage.loginLabel)));
 
 
 
