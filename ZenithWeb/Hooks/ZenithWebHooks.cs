@@ -29,7 +29,7 @@ namespace ZenithWeb.Hooks
 
         static string configTheme = "dark";
         static string configReportPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "AutomationResults", "ExtentReport.html");
-        //static string configReportPath = @$"C:\AutomationResults\ExtentReport.html";
+     
 
 
         [ThreadStatic]
